@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GlamCal - Stylist Appointment Book</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --background: 255 241 242;
+            --foreground: 28 25 23;
+            --card: 255 255 255;
+            --card-foreground: 28 25 23;
+            --primary: 244 63 94;
+            --primary-foreground: 255 251 251;
+            --secondary: 254 205 211;
+            --secondary-foreground: 136 19 55;
+            --muted: 254 226 226;
+            --muted-foreground: 107 114 128;
+            --accent: 251 146 158;
+            --accent-foreground: 28 25 23;
+            --destructive: 220 38 38;
+            --border: 254 226 226;
+            --ring: 244 63 94;
+        }
+
+        [data-theme='rose'] {
+            --background: 255 241 242;
+            --foreground: 28 25 23;
+            --card: 255 255 255;
+            --card-foreground: 28 25 23;
+            --primary: 244 63 94;
+            --primary-foreground: 255 251 251;
+            --secondary: 254 205 211;
+            --secondary-foreground: 136 19 55;
+            --muted: 254 226 226;
+            --muted-foreground: 107 114 128;
+            --accent: 251 146 158;
+            --accent-foreground: 28 25 23;
+            --destructive: 220 38 38;
+            --border: 254 226 226;
+            --ring: 244 63 94;
+        }
+
+        [data-theme='lavender'] {
+            --background: 245 243 255;
+            --foreground: 28 25 23;
+            --card: 255 255 255;
+            --card-foreground: 28 25 23;
+            --primary: 139 92 246;
+            --primary-foreground: 255 255 255;
+            --secondary: 221 214 254;
+            --secondary-foreground: 76 29 149;
+            --muted: 237 233 254;
+            --muted-foreground: 107 114 128;
+            --accent: 196 181 253;
+            --accent-foreground: 28 25 23;
+            --destructive: 220 38 38;
+            --border: 237 233 254;
+            --ring: 139 92 246;
+        }
+
+        [data-theme='mint'] {
+            --background: 240 253 244;
+            --foreground: 28 25 23;
+            --card: 255 255 255;
+            --card-foreground: 28 25 23;
+            --primary: 16 185 129;
+            --primary-foreground: 255 255 255;
+            --secondary: 167 243 208;
+            --secondary-foreground: 6 78 59;
+            --muted: 209 250 229;
+            --muted-foreground: 107 114 128;
+            --accent: 110 231 183;
+            --accent-foreground: 28 25 23;
+            --destructive: 220 38 38;
+            --border: 209 250 229;
+            --ring: 16 185 129;
+        }
+
+        [data-theme='ocean'] {
+            --background: 239 246 255;
+            --foreground: 28 25 23;
+            --card: 255 255 255;
+            --card-foreground: 28 25 23;
+            --primary: 59 130 246;
+            --primary-foreground: 255 255 255;
+            --secondary: 191 219 254;
+            --secondary-foreground: 30 58 138;
+            --muted: 219 234 254;
+            --muted-foreground: 107 114 128;
+            --accent: 147 197 253;
+            --accent-foreground: 28 25 23;
+            --destructive: 220 38 38;
+            --border: 219 234 254;
+            --ring: 59 130 246;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            -webkit-tap-highlight-color: transparent;
+            background-color: rgb(var(--background));
+            color: rgb(var(--foreground));
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+</body>
+</html>
